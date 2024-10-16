@@ -1,0 +1,1 @@
+fn(Json<PostTickets>) -> impl Future<Output = (StatusCode, Json<PostTickets>)> {post_tickets}

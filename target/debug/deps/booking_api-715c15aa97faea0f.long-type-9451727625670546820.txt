@@ -1,0 +1,1 @@
+fn(axum::extract::Path<usize>, Arc<tokio::sync::Mutex<AppState>>) -> impl Future<Output = Result<axum::Json<PostTicketResponse>, StatusCode>> {get_ticket}

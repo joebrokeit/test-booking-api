@@ -1,0 +1,1 @@
+fn(axum::Json<PostTickets>, Arc<tokio::sync::Mutex<AppState>>) -> impl Future<Output = (StatusCode, axum::Json<PostTicketResponse>)> {post_tickets}
